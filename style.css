@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+      /* background-color: #f0f0f0; */
+  
+    background-image: url('sky1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    image-rendering: crisp-edges;
+    height: 100vh; /* Set the height to fill the viewport */
+    margin: 0; /* Remove default margin */
+    padding: 0; 
+    
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap'); /* Import a modern font */
+
+  .title {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 42px; /* Slightly increased the font size for prominence */
+      font-family: 'Poppins', sans-serif; /* Switched to 'Montserrat' for a sleek look */
+      color: #ffffff; /* White text color */
+      letter-spacing: 1.5px; /* Add subtle spacing between the letters */
+  }
+  
+.container {
+    /*max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5); /* Set the background color to be transparent */
+    /*border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adjust the alpha value here for the box shadow transparency */
+    /*margin-top: 105px;*/
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #4a6ee4, #5b548a);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: centre;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.weather-info {
+    margin-top: 20px;
+}
