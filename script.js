@@ -1,5 +1,5 @@
 // Store your OpenWeatherMap API key in a constant
-const apiKey = 'f7b8a9e412a4fa0879e6ff7a805b88b5';
+const apiKey = 'YOUR_API_KEY';
 
 // Base URL for the OpenWeatherMap API with units set to metric for temperature in Celsius
 const apiUrl = 'https://api.openweathermap.org/data/2.5/weather';
